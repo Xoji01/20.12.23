@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- <body>
+    <table id="myTable" border="1">
+        <tr>
+            <th>Номер</th>
+            <th>Имя</th>
+            <th>Год рождения</th>
+            <th>Действия</th>
+        </tr>
+    </table>
+    
+    <button onclick="add()">Добавить</button>
+    
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="zakok()">&times;</span>
+            <label for="editedName">Новое имя:</label>
+            <input type="text" id="editedName">
+            <label for="editedYear">Новый год рождения:</label>
+            <input type="text" id="editedYear">
+            <button onclick="soxiz()">Сохранить изменения</button>
+        </div>
+    </div> -->
+<div class="con">
+    <h1>ДОБАВЛЕНИЕ, ИЗМЕНЕНИЕ И УДАЛЕНИЕ ЭЛЕМЕНТА ИЗ ТАБЛИЦЫ</h1>
+    <div class="a">
+    <label for="name">Имя:</label>
+<input type="text" id="name">
+
+<label for="age">Возраст:</label>
+<input type="text" id="age">
+
+<button onclick="показать()">Показать</button>
+
+<table id="myTable" >
+    <thead>
+    <tr>
+        <th>Номер</th>
+        <th>Имя</th>
+        <th>Возраст</th>
+        <th>Действия</th>
+    </tr>
+</thead>    
+</table>
+
+
+<div id="myModal" class="modal">
+    <div class="modal-content">
+        <span class="close" onclick="закрытьМодальноеОкно()">&times;</span>
+        <label for="editedName">Новое имя:</label>
+        <input type="text" id="editedName">
+        <label for="editedAge">Новый возраст:</label>
+        <input type="text" id="editedAge">
+        <button onclick="сохранитьИзменения()">Сохранить изменения</button>
+    </div>
+</div>
+</div>
+</div>
+<style>
+    *{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+    table{
+        width: 100%;
+        padding: 20px;
+    }
+    table thead th {
+        text-align: start;
+    }
+    .a{
+        padding-top: 50px;
+    }
+</style>
+    <script src="./index.js"></script>
+</body>
+</html>
